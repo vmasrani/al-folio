@@ -2,22 +2,21 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-
+description: Vaden Masrani's academic website. A place to link to news, recent work, and what's been interesting me of late.
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+    <p>PLAI Lab</p>
+    <p>Department of Computer Science</p>
+    <p>University of British Columbia</p>
+    <p>X725-2366 Main Mall</p>
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a Ph.D student working in machine learning and probabilistic programming at the University of British Columbia. I am a member of the [PLAI lab](https://plai.cs.ubc.ca/) under the supervision of [Frank Wood](https://www.cs.ubc.ca/~fwood/index.html).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before this I was supervised by [Giuseppe Carenini](http://www.cs.ubc.ca/~carenini/) in the [Laboratory for Computational Intelligence](https://www.cs.ubc.ca/cs-research/lci) where I completed my M.Sc. in artificial intelligence. I have also had the good fortune of working with [Siamak Ravanbakhsh](http://www.cs.ubc.ca/~siamakx/), [Emtiyaz Khan](https://emtiyaz.github.io), and [Colin Gay](https://www.phas.ubc.ca/users/colin-gay) in deep learning, approximate bayesian inference, and particle physics, respectively.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My CV is [here]({{ "assets/pdf/masrani_resume.pdf" | absolute_url }}).

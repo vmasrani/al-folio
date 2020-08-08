@@ -1,69 +1,122 @@
 ---
 ---
+References
+==========
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{brekelmans2020exponential,
+  title={All in the Exponential Family: Bregman Duality in Thermodynamic Variational Inference},
+  author={Brekelmans, Rob and Masrani, Vaden and Wood, Frank and Ver Steeg, Greg and Galstyan, Aram and},
+  journal={International Conference On Machine Learning},
+  year={2020},
+  abbr={ICML},
+  arxiv={2007.00642},
+  code={https://github.com/vmasrani/tvo_all_in},
+  abstract={ The recently proposed Thermodynamic Variational Objective (TVO) leverages thermodynamic integration to provide a family of variational inference objectives, which both tighten and generalize the ubiquitous Evidence Lower Bound (ELBO). However, the tightness of TVO bounds was not previously known, an expensive grid search was used to choose a "schedule" of intermediate distributions, and model learning suffered with ostensibly tighter bounds. In this work, we propose an exponential family interpretation of the geometric mixture curve underlying the TVO and various path sampling methods, which allows us to characterize the gap in TVO likelihood bounds as a sum of KL divergences. We propose to choose intermediate distributions using equal spacing in the moment parameters of our exponential family, which matches grid search performance and allows the schedule to adaptively update over the course of training. Finally, we derive a doubly reparameterized gradient estimator which improves model learning and allows the TVO to benefit from more refined bounds. To further contextualize our contributions, we provide a unified framework for understanding thermodynamic integration and the TVO using Taylor series remainders.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@article{wood2020planning,
+  title={Planning as Inference in Epidemiological Models},
+  author={Wood, Frank and Warrington, Andrew and Naderiparizi, Saeid and Weilbach, Christian and Masrani, Vaden and Harvey, William and Scibior, Adam and Beronov, Boyan and Nasseri, Ali},
+  journal={arXiv preprint},
+  year={2020},
+  arxiv={2003.13221},
+  code={https://github.com/plai-group/covid},
+  abstract={In this work we demonstrate how existing software tools can be used to automate parts  of infectious disease-control policy-making via performing inference in existing epidemiological  dynamics models. The kind of inference tasks undertaken include computing, for planning purposes, the posterior distribution over putatively controllable, via direct policy-making choices,  simulation model parameters that give rise to acceptable disease progression outcomes. Neither the full capabilities of such inference automation software tools nor their utility for planning is widely disseminated at the current time. Timely gains in understanding about these tools and how they can be used may lead to more fine-grained and less economically damaging policy  prescriptions, particularly during the current COVID-19 pandemic.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf}
+@article{bateni2019improved,
+  title={Improved Few-Shot Visual Classification},
+  author={Bateni, Peyman and Goyal, Raghav and Masrani, Vaden and Wood, Frank and Sigal, Leonid},
+  journal={Conference on Computer Vision and Pattern Recognition},
+  abbr={CVPR},
+  year={2019},
+  arxiv={1912.03432},
+  code={https://github.com/peymanbateni/simple-cnaps},
+  abstract={Few-shot learning is a fundamental task in computer vision that carries the promise of
+  alleviating the need for exhaustively labeled data. Most few-shot learning approaches to date have focused on progressively more complex neural feature extractors and classifier adaptation strategies, as well as the refinement of the task definition itself. In this paper, we explore the hypothesis that a simple class-covariance-based distance metric, namely the Mahalanobis distance, adopted into a state of the art few-shot learning approach (CNAPS) can, in and of itself, lead to a significant performance improvement. We also discover that it is possible to learn adaptive feature extractors that allow useful estimation of the high dimensional feature covariances required by this metric from surprisingly few samples. The result of our work is a new "Simple CNAPS" architecture which has up to 9.2% fewer trainable parameters than CNAPS and performs up to 6.1% better than state of the art on the standard few-shot image classification benchmark dataset.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@article{masrani2019thermodynamic,
+  title={The Thermodynamic Variational Objective},
+  author={Masrani, Vaden and Le, Tuan Anh and Wood, Frank},
+  journal={Neural Information Processing Systems},
+  abbr={NeurIPS},
+  year={2019},
+  arxiv={1907.00031},
+  code={https://github.com/vmasrani/tvo},
+  poster={neurips_tvo_poster.pdf},
+  abstract={We introduce the thermodynamic variational objective (TVO) for learning in both continuous and discrete deep generative models. The TVO arises from a key connection between variational inference and thermodynamic integration that results in a tighter lower bound to the log marginal likelihood than the standard variational variational evidence lower bound (ELBO) while remaining as broadly applicable. We provide a computationally efficient gradient estimator for the TVO that applies to continuous, discrete, and non-reparameterizable distributions and show that the objective functions used in variational inference, variational autoencoders, wake sleep, and inference compilation are all special cases of the TVO. We use the TVO to learn both discrete and continuous deep generative models and empirically demonstrate state of the art model and inference network learning.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@MastersThesis{masrani2018detecting,
+  title={Detecting dementia from written and spoken language},
+  author={Masrani, Vaden},
+  year={2018},
+  html={https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0362923},
+  code={https://github.com/vmasrani/dementia_classifier},
+  dataset={https://github.com/vadmas/blog_corpus},
+  school={University of British Columbia},
+  abstract={This thesis makes three main contributions to existing work on the automatic detection of dementia from language. First we introduce a new set of biologically motivated spatial neglect features, and show their inclusion achieves a new state of the art in classifying Alzheimer’s disease (AD) from recordings of patients undergoing the Boston Diagnostic Aphasia Examination. Second we demonstrate how a simple domain adaptation algorithm can be used to leveraging AD data to improve classification of mild cognitive impairment (MCI), a condition characterized by a slight-but-noticeable decline in cognition that does not meet the criteria for dementia, and a condition for which reliable data is scarce. Third, we investigate whether dementia can be detected from written rather than spoken language, and show a range of classifiers achieve a performance far above baseline. Additionally, we create a new corpus of blog posts written by authors with and without dementia and make it publicly available for future researchers.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{masrani2017domain,
+  title={Domain adaptation for detecting mild cognitive impairment},
+  author={Masrani, Vaden and Murray, Gabriel and Field, Thalia Shoshana and Carenini, Giuseppe},
+  booktitle={Canadian Conference on Artificial Intelligence},
+  pages={248--259},
+  year={2017},
+  html={https://link.springer.com/chapter/10.1007%2F978-3-319-57351-9_29},
+  code={https://github.com/vmasrani/dementia_classifier},
+  organization={Springer, Cham},
+  abstract={Lexical and acoustic markers in spoken language can be used to detect mild cognitive impairment (MCI), a condition which is often a precursor to dementia and frequently causes some degree of dysphasia. Research to develop such a diagnostic tool for clinicians has been hindered by the scarcity of available data. This work uses domain adaptation to adapt Alzheimer’s data to improve classification accuracy of MCI. We evaluate two simple domain adaptation algorithms, AUGMENT and CORAL, and show that AUGMENT improves upon all baselines. Additionally we investigate the use of previously unconsidered discourse features and show they are not useful in distinguishing MCI from healthy controls.}
+}
+
+@inproceedings{masrani2017detecting,
+  title={Detecting dementia through retrospective analysis of routine blog posts by bloggers with dementia},
+  author={Masrani, Vaden and Murray, Gabriel and Field, Thalia and Carenini, Giuseppe},
+  booktitle={BioNLP 2017},
+  pages={232--237},
+  year={2017},
+  html={http://aclweb.org/anthology/W17-2329},
+  code={https://github.com/vmasrani/dementia_classifier},
+  dataset={https://github.com/vadmas/blog_corpus},
+  abstract={We investigate if writers with dementia can be automatically distinguished from those without by analyzing linguistic markers in written text, in the form of blog posts. We have built a corpus of several thousand blog posts, some by people with dementia and others by people with loved ones with dementia. We use this dataset to train and test several machine learning methods, and achieve prediction performance at a level far above the baseline.}
+}
+
+@inproceedings{johnson2017generating,
+  title={Generating and Evaluating Summaries for Partial Email Threads: Conversational Bayesian Surprise and Silver Standards},
+  author={Johnson, Jordon and Masrani, Vaden and Carenini, Giuseppe and Ng, Raymond},
+  booktitle={Proceedings of the 18th Annual SIGdial Meeting on Discourse and Dialogue},
+  pages={263--272},
+  year={2017},
+  html={http://www.sigdial.org/workshops/conference18/proceedings/pdf/SIGDIAL32.pdf},
+  abstract={We define and motivate the problem of summarizing partial email threads. This problem introduces the challenge of generating reference summaries for partial threads when human annotation is only available for the threads as a whole, particularly when the human-selected sentences are not uniformly distributed within the threads. We propose an oracular algorithm for generating these reference summaries with arbitrary length, and we are making the resulting dataset publicly available. In addition, we apply a recent unsupervised method based on Bayesian Surprise that incorporates background knowledge into partial thread summarization, extend it with conversational features, and modify the mechanism by which it handles redundancy.}
+}
+
+@article{palyart2017study,
+  title={A study of social interactions in open source component use},
+  author={Palyart, Marc and Murphy, Gail C and Masrani, Vaden},
+  journal={IEEE Transactions on Software Engineering},
+  volume={44},
+  number={12},
+  pages={1132--1145},
+  year={2017},
+  html={http://ieeexplore.ieee.org/abstract/document/8049385/},
+  publisher={IEEE},
+  abstract={All kinds of software projects, whether open or closed source, rely on open source components. Repositories that serve open source components to organizations, such as the Central Repository and npmjs.org, report billions of requests per year. Despite the widespread reliance of projects on open source components, little is known about the social interactions that occur between developers of a project using a component and developers of the component itself. In this paper, we investigate the social interactions that occur for 5,133 pairs of projects, from two different communities (Java and Ruby) representing user projects that depend on a component project. We consider such questions as how often are there social interactions when a component is used? When do the social interactions occur? And, why do social interactions occur? Our results provide insight into how socio-technical interactions occur beyond the level of an individual or small group of projects previously studied by others and identify the need for a new model of socio-technical congruence for dependencies between, instead of within, projects.}
+}
+
+@article{field2017improving,
+  title={Improving Diagnostic Accuracy Of Alzheimer's Disease From Speech Analysis Using Markers Of Hemispatial Neglect},
+  author={Field, Thalia S and Masrani, Vaden and Murray, Gabriel and Carenini, Giuseppe},
+  journal={Alzheimer's \& Dementia: The Journal of the Alzheimer's Association},
+  volume={13},
+  number={7},
+  pages={P157--P158},
+  year={2017},
+  html={http://www.alzheimersanddementia.com/article/S1552-5260(17)32851-0/abstract},
+  code={https://github.com/vmasrani/dementia_classifier},
+  publisher={Elsevier},
+  abstract={Machine learning has been previously used to distinguish patients with Alzheimer’s disease (AD) versus healthy controls using transcripts of descriptions of the “Cookie Theft” picture from the Boston Diagnostic Aphasia Exam. Previous work achieved a positive predictive value (PPV) of 0.83 (95% CI 0.79 – 0.87) and negative predictive value (NPV) of 0.81 (0.74 – 0.88) using lexical (e.g. word choice and complexity) and acoustic (e.g. pauses, prosody) features extracted from interviews. Given that language deficits may be associated with other dominant hemisphere findings, we evaluated the diagnostic utility in adding markers of hemispatial neglect to our previous baseline algorithm.}
 }

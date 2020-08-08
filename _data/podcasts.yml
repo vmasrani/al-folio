@@ -1,0 +1,234 @@
+- name: "The Gist"
+  link: http://www.slate.com/articles/podcasts/gist.html
+  topic: Politics
+  blurb: Master wordsmith Mike Pesca's daily take on the news. He has interesting guests from across the political spectrum and always offers a unique insight into current events. Plus he's funny.
+  key_episode:
+   display: Everybody, Somebody, Nobody
+   url: http://www.slate.com/articles/news_and_politics/politics/2017/03/when_donald_trump_says_nobody_he_really_means_almost_everybody.html
+  img: gist.jpg
+
+- name: "This American Life"
+  link: https://www.thisamericanlife.org/podcast
+  topic: Culture
+  blurb: The most popular podcast of all time. Ira glass and his team tell touching fictional and non-fictional vignettes of life in America. They also do longer explanatory pieces on, say, the financial crisis or the healthcare debate.
+  key_episode:
+    display: Harper high school
+    url: https://www.thisamericanlife.org/radio-archives/episode/487/harper-high-school-part-one
+  img: tal.jpg
+
+- name: "Planet Money"
+  link: https://www.npr.org/sections/money/
+  topic: Economics
+  blurb: Planet Money aims to make financial news both understandable and interesting to the lay public. They use creative storytelling to explain the complicated forces that move our economy.
+  key_episode:
+    display: Libertarian Summer Camp
+    url: https://www.npr.org/sections/money/2017/06/28/534735727/episode-286-libertarian-summer-camp
+  img: planet_money.jpg
+
+- name: "Lawfare Podcast"
+  link: https://www.lawfareblog.com/topic/podcasts
+  topic: Politics
+  blurb: A dense and technical discussion on current events, with a focus on law and policy. When there's a current debate over a piece of legislation, for example tax reform or the FISA act, Lawfare offers a non-partisan view of what's in the bill and how it's likely to be interpreted.
+  key_episode:
+    display: Cass Sunstein on the Citizen's Guide to Impeachment
+    url: https://www.lawfareblog.com/lawfare-podcast-cass-sunstein-citizens-guide-impeachment
+  img: lf.jpg
+
+- name: "Talking Machines"
+  link: https://www.thetalkingmachines.com/
+  topic: Machine Learning / AI
+  blurb: Host Neil Lawrence (and former host Ryan Adams) talk to leading researchers about current developments in machine learning. The first segment of each episode, where a popular topic in ML (e.g., the bias-variance tradeoff) is explained is particularly valuable.
+  key_episode:
+    display: Hello World!
+    url: https://art19.com/shows/talking-machines/episodes/b0e22076-2815-4952-a5d0-3da44401cd03
+  img: talking_machines.png
+
+- name: "The New Yorker Radio Hour"
+  link: https://www.wnycstudios.org/shows/tnyradiohour
+  topic: Politics / Culture
+  blurb: Current editor of the New Yorker magazine David Remnick chats with journalists, politicans, and celebrities about current events.
+  key_episode:
+    display: Nicolás Maduro on the Brink of Dictatorship
+    url: https://www.wnycstudios.org/story/nicolas-maduro-brink-dictatorship
+  img: nyrh.jpg
+
+- name: "Politics and More"
+  link: https://www.newyorker.com/podcast/political-scene
+  topic: Politics
+  blurb: Journalists from the New Yorker talk to Dorothy Wickenden about current events. Look for interviews with Evan Osnos, Dexter Filkins, and John Cassidy in particular.
+  key_episode:
+    display: Why China Loves Trump
+    url: https://www.newyorker.com/podcast/political-scene/why-china-loves-trump
+  img: politics_and_more.jpg
+
+- name: "RadioLab"
+  link: http://www.radiolab.org/
+  topic: Science
+  blurb: The podcast which gets people addicted to podcasts. If you've never listened to a podcast before, start with this one. Brilliant storytelling of fascinated topics in science and history, weaved together with emersive stereophonic sound.
+  key_episode:
+    display: The Bad Show
+    url: http://www.radiolab.org/story/180092-the-bad-show/
+  img: radiolab.jpg
+
+- name: "Waking Up"
+  link: https://www.samharris.org/podcast
+  topic: Science / Politics / Philosophy
+  blurb: Sam Harris rejects the division of human inquiry into distinct subjects like 'science', 'politics', or 'philosophy.' He has wide ranging discussions on subjects both contemporary and historical, and emphasizes the importance of reason to live a life that maximizes human wellbeing.
+  key_episode:
+    display: The Lessons of Death
+    url: https://www.samharris.org/podcast/item/the-lessons-of-death
+  img: waking_up.jpg
+
+- name: "Ted Radio Hour"
+  link: https://www.npr.org/programs/ted-radio-hour/
+  topic: Science
+  blurb: Ted talks are grouped together under a common theme and supplemented with additional interviews with the speakers. If you like Ted, you'll like Ted Radio Hour.
+  key_episode:
+    display: The Unknown Brain
+    url: https://www.npr.org/programs/ted-radio-hour/384949524/the-unknown-brain
+  img: ted.jpg
+
+- name: "Pod Save The World"
+  link: https://art19.com/shows/pod-save-the-world
+  topic: Politics
+  blurb: After the Obama administration ended, some members of his team a podcast called 'Pod Save The World'. Tommy Vietor interviews former White House staffers and gets their take on current events from the perspective of people who have actually served in government.
+  key_episode:
+    display: 8 Years in the Situation Room with Ben Rhodes
+    url: https://art19.com/shows/pod-save-the-world/episodes/513dea9b-2106-4295-a61f-97a49bfcdead
+  img: pstw.jpg
+
+- name: "Hardcore History"
+  link: http://www.dancarlin.com/
+  topic: History
+  blurb: Host Dan Carlin breathes fire into history, telling stories from a fresh and brutally vivid perspective. He's the necessary corrective to the stale history classes we were all subjected to in high school. His 10 hour series on World War 1 was more gripping than any television show or film I've seen on the subject.
+  key_episode:
+    display: Hardcore History 50 – Blueprint for Armageddon I
+    url: http://www.dancarlin.com/product/hardcore-history-50-blueprint-for-armageddon-i/
+  img: hh.jpg
+
+- name: "Common Sense"
+  link: http://www.dancarlin.com/common-sense-home-landing-page/
+  topic: Politics
+  blurb: The same Dan Carlin from Hardcore History also hosts a political podcast where he opines on current events. He described himself as a 'political Martian' and is always engaging to listen to, even and especially if you don't agree with him.
+  key_episode:
+    display: Common Sense 316 – The Day of the Dove
+    url: http://www.dancarlin.com/product/common-sense-316-the-day-of-the-dove/
+  img: cs.jpg
+
+- name: "WeThePeople Live"
+  link: https://soundcloud.com/wtp_live
+  topic: Politics
+  blurb: Host Josh Zepps has 'bar-room conversations' with people from across the political divide. His goal is to 'make debate healthy again', and he's a model for what healthy debate should look like. And he has an Australian accent.
+  key_episode:
+    display: Ep.52 Sam Harris, Joe Rogan, Hannibal Buress - A conversation about conversations, Part 1
+    url: https://www.acast.com/wethepeoplelive/ep.52samharris-joerogan-hannibalburess-aconversationaboutconversations-parti
+  img: wtpl.jpg
+
+
+- name: "The Fifth Column"
+  link: http://wethefifth.com/
+  topic: Politics
+  blurb: Kmele Foster, Matt Welch, Michael Moynihan offer their perspective on politics and race from a center, libertarian perspective. I mainly listen for Kmele Foster. Don't call him black.
+  key_episode:
+    display: Episode 84 w/ John McWhorter “Linguistics, Race, and Beyond"
+    url: http://wethefifth.com/episodes/2017/12/8/john-mcwhorter-race-language-antiracism-blackinamerica
+  img: tfc.jpg
+
+- name: "Very Bad Wizards"
+  link: https://verybadwizards.fireside.fm/
+  topic: Philosophy
+  blurb: A psychologist who is interested in philosophy argues with a philosopher who is interested in psychology. Occasionally they make progress.
+  key_episode:
+    display: The Perils of Empathy (with Paul Bloom)
+    url: https://verybadwizards.fireside.fm/24
+  img: vbw.jpg
+
+- name: "Partially Examined Life"
+  link: https://partiallyexaminedlife.com/
+  topic: Philosophy
+  blurb: The Partially Examined Life is a philosophy podcast by some guys who were at one point set on doing philosophy for a living but then thought better of it. They delve deeply into the works of key figures in philosphy.
+  key_episode:
+    display: Episode 19, Kant - What Can We Know? (Citizens Only)
+    url: http://partiallyexaminedlife.com/category/podcast-episodes/page/2/?order=ASC
+  img: pel.jpg
+
+- name: "Freakonomics"
+  link: http://freakonomics.com/
+  topic: Economics
+  blurb: Another highly popular podcast. Hosts Steven Dubner and Stephen Levitt 'explore the riddles of everyday life and the weird wrinkles of human nature — from cheating and crime to parenting and sports.'
+  key_episode:
+    display: Is America Ready for a “No-Lose Lottery”?
+    url: http://freakonomics.com/podcast/say-no-no-lose-lottery-rebroadcast/
+  img: freak.jpg
+
+- name: "Fresh Air"
+  link: https://www.npr.org/programs/fresh-air/
+  topic: Culture
+  blurb: Terry Gross interviews every sort of person and every conceivable topic. Authors, actors, journalists, politicians, scientists, astronauts. We should all aspire to achieve something in our lives noteworth enough to be interviewed by Terry Gross.
+  key_episode:
+    display: David Sedaris
+    url: https://www.npr.org/2017/05/31/530810011/david-sedaris-on-the-life-altering-and-mundane-pages-of-his-old-diaries
+  img: fa.jpg
+
+- name: "You Are Not So Smart"
+  link: https://youarenotsosmart.com/
+  topic: Science
+  blurb: A podcast about cognitive biases and the numerous ways humans deceive themselves.
+  key_episode:
+    display: Bayes’ Theorem
+    url: https://youarenotsosmart.com/2016/04/08/yanss-073-how-to-get-the-most-out-of-realizing-you-are-wrong-by-using-bayes-theorem-to-update-your-beliefs/
+  img: yanss.jpg
+
+- name: "The Glenn Show"
+  link: https://bloggingheads.tv/programs/glenn-show
+  topic: Politics
+  blurb: Over the last ten years, Brown University professor Glenn Loury has been conversing with Columbia University professor John McWhorter on the fraught question of race in America. Their conversations are unlike most you're likely to hear on this subject.
+  key_episode:
+    display: Talking Ta-Nehisi Coates
+    url: https://www.youtube.com/watch?v=-jeiPKh7jEA
+  img: tgs.jpg
+
+- name: "The Ezra Klein Show"
+  link: https://www.vox.com/ezra-klein-show-podcast
+  topic: Politics
+  blurb: Vox's Ezra Klein Show gives a left-wing take on current events and interviews some high profile guests, including Hillary Clinton, Malcolm Gladwell, Yuval Harari, and others.
+  key_episode:
+    display: J.D. Vance, the reluctant interpreter of Trumpism
+    url: https://www.vox.com/2017/2/2/14404770/jd-vance-trump-hillbilly-elegy-ezra-klein-show
+  img: ezra.jpg
+
+- name: "Intelligence Matters with Michael Morell"
+  link: https://www.thecipherbrief.com/podcasts/intelligence-matters
+  topic: Politics
+  blurb: Former acting Director of the CIA Michael Morell talks about security, privacy, and counter-terrorism efforts with top leaders of the U.S. intelligence community. This podcast gives a window into what conversations about counter-terrorism sound like from within the CIA.
+  key_episode:
+    display: Robert Cardillo on the NGA’s role in the raid on Osama bin Laden’s compound
+    url: https://www.thecipherbrief.com/podcasts/robert-cardillo-ngas-role-raid-osama-bin-ladens-compound
+  img: intelligence.jpg
+
+- name: "EconTalk with Russ Roberts"
+  link: http://www.econtalk.org/
+  topic: Economics
+  blurb: Russ Roberts describes himself as a proponent of 'classical economic liberalism', and it's through that lens he interviews authors, laywers, economists from all politcal backgrounds. He has civil discussions with those with whom he disagrees and is a clear explicator of the Smithian worldview.
+  key_episode:
+    display: Matt Ridley on the Evolution of Everything
+    url: http://www.econtalk.org/archives/2016/02/matt_ridley_on_1.html
+  img: econtalk.jpg
+
+- name: "Think Again"
+  link: http://bigthink.com/articles?blog=think-again-podcast
+  topic: Politics / Science / Culture
+  blurb: \'Spontaneous talk on surprise topics.\' Host Jason Gots asks his guests to respond to clips of other leading thinkers.
+  key_episode:
+    display: Lawrence Krauss – Lux Ex Machina – Think Again Podcast
+    url: http://bigthink.com/think-again-podcast/lawrence-krauss-nil-lux-ex-machina-nil-think-again-podcast-98
+  img: think_again.jpg
+
+- name: "Rationally Speaking with Julia Galef"
+  link: http://rationallyspeakingpodcast.org/
+  topic: Science / Rationally
+  blurb: \'Host Julia Galef explores the borderlands between reason and nonsense, likely and unlikely, and science and pseudoscience.\' Galef is a keen proponent of bayesian reasoning and uses a rationalist perspective to explores all sorts of topics. And she has the admirable ability of being able to coming up with concrete examples to explain nebulous concepts.
+  key_episode:
+    display: William MacAskill on 'Moral Uncertainty'
+    url: http://rationallyspeakingpodcast.org/show/rs-181-william-macaskill-on-moral-uncertainty.html
+  img: rationally.jpg

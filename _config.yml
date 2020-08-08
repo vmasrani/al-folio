@@ -2,18 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: You R. Name
-email: you@example.com
+title: Vaden Masrani
+email: vadmas@cs.ubc.ca
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Vaden Masrani's academic website. A place to link to news, recent work, and what's been interesting me of late.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+baseurl: # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -36,10 +35,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+github_username: vmasrani
+twitter_username: VadenMasrani
+linkedin_username: vaden-masrani
+scholar_userid: https://scholar.google.ca/citations?user=3m_6zUEAAAAJ&hl=en&oi=ao
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -48,7 +47,7 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  email preferred
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -56,8 +55,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: scratch pad  # your blog must have a name for it to show up in the nav bar
+blog_description: machine learning, philosophy, epistemology, other
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -65,7 +64,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: vmasrani # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -110,6 +109,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-katex
   - jemoji
   # - bootstrap
   # - material-sass
@@ -120,7 +120,7 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  last_name: Masrani
 
   style: apa
   locale: en

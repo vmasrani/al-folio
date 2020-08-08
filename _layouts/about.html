@@ -13,15 +13,20 @@ layout: default
        {% assign middlenames = '' %}
     {% endif %}
     {% assign lastname = name | last %}
-    <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-     <span class="font-weight-bold">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
-    </a>
+    <a class="navbar-brand title font-weight-lighter" style="font-size:2.25rem" >
+        <span class="font-weight-bold" >{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
+       </a>
   </header>
 
   <article>
     <div class="row">
       <div class="col">
         {{ content }}
+
+        {% if page.news %}
+          {% include news.html %}
+        {% endif %}
+
       </div>
         {% if page.profile %}
         <div class="profile col-4 {% if page.profile.align == 'left' %}order-first{% endif %}">
@@ -36,10 +41,6 @@ layout: default
         </div>
         {% endif %}
     </div>
-
-    {% if page.news %}
-      {% include news.html %}
-    {% endif %}
 
     {% if page.social %}
     <div class="social">
